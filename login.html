@@ -6,6 +6,10 @@
 <title>Log in</title>
 
 <style>
+body {
+  margin: 0;
+}
+
 h1 {
   text-align: center;
   font-size: 3rem;
@@ -24,6 +28,10 @@ h2 {
   padding: 10px;
   margin: auto;
   gap: 5px;
+}
+
+.box {
+  padding: 0 50px;
 }
 
 input {
@@ -48,25 +56,38 @@ input {
   width: 150px;
   margin: auto;
 }
+
+#connect {
+  background-color: red;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
 </style>
 </head>
 <body>
 
+<div id="connect"></div>
 <h1>ChevrezWiki</h1>
 
-<div class="log">
-  <h2>Log in Chevrez</h2>
-  <b>Create una cuenta</b>
-  <div class="mybox">
-    <span>User name: </span>
-    <input type="text" id="name">
+<div class="box">
+  <div class="log">
+    <h2>Log in Chevrez</h2>
+    <b>Create una cuenta</b>
+    <div class="mybox">
+      <span>User name: </span>
+      <input type="text" id="name">
+    </div>
+    <div class="mybox">
+      <span>Password: </span>
+      <input class="password" type="password" id="password">
+    </div>
+    <br/>
+    <button class="btn" onclick="loginn()">Log in ChevrezWiki</button>
   </div>
-  <div class="mybox">
-    <span>Password: </span>
-    <input class="password" type="password" id="password">
-  </div>
-  <br/>
-  <button class="btn" onclick="loginn()">Log in ChevrezWiki</button>
+  <h3>Perfil</h3>
+  <div id="perfil"></div>
 </div>
 
 <script src="login.js"></script>
