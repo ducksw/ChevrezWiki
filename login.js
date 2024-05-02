@@ -7,7 +7,7 @@ function loginn() {
 
   let loginData = JSON.parse(localStorage.getItem("loginData")) || {};
 
-  loginData[name] = password
+  loginData[name] = true;
 
   localStorage.setItem("loginData", JSON.stringify(loginData));
 
