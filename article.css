@@ -1,0 +1,54 @@
+body {
+  background-color: #eee;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-family: 'Georgia';
+  font-weight: normal;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 100%;
+  width: 900px;
+  margin: auto;
+}
+
+.text {
+  padding: 10px;
+}
+
+hr {
+  width: 100%;
+}
+
+.title-link {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  text-decoration: none;
+  color: black;
+}
+
+.title-link:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-family: sans-serif;
+  line-height: 1.5714285;
+  font-size: 0.875rem;
+  padding-bottom: 0.5em;
+  margin: 0.5em 0 0 0;
+  z-index: 1;
+}
+
+img {
+  max-width: 100%;
+  width: 250px;
+  float: right;
+}
+

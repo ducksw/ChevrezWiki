@@ -4,73 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ChevrezWiki</title>
-<style>
-.boxx {
-  text-align: center;
-  font-family: monospace;
-}
-
-h1 {
-  font-size: 3rem;
-  font-family: none;
-  margin: auto;
-}
-
-.input {
-  max-width: 100%;
-  width: 300px;
-  font-family: sans-serif;
-}
-
-#res {
-  display: flex;
-  justify-content: center;
-  max-width: 100%;
-  width: 370px;
-  margin: auto;
-  margin-top: 30px;
-}
-
-#res a {
-  text-decoration: none;
-}
-
-#res a:hover {
-  text-decoration: underline;
-  color: black;
-}
-
-hr {
-  max-width: 100%;
-  width: 500px;
-}
-
-#links {
-  display: flex;
-}
-
-#links:hover {
-  color: black;
-}
-
-#box {
-  display: flex;
-  font-family: sans-serif;
-}
-
-#art {
-  text-align: center;
-}
-
-p {
-  font-family: monospace;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<a href="login.html" style="display: flex; justify-content: end;">Log in</a>
+<div class="link-login">
+<a href="login.html">Log in</a>
+</div>
 <div class="boxx">
 
 <div id="art"></div>
@@ -83,25 +23,28 @@ p {
 <br/>
 
 <div class="inputs">
-<input type="text" class="input" id="input"> 
+<input type="text" class="input" id="input" placeholder="Search..."> 
 <input type="submit" value="Search" onclick="buscar()">
 </div>
 
 <!-- si esto llega a los 200, lo tendre que pensar en crear un wikipedia. -->
 <div id="list" style="display: none">
+  <a href="Articles/TON_618.html">TON 618</a>
 </div>
 
-<h3>ChevrezWiki una wiki chevrez</h3>
+<h3>ChevrezWiki es una wiki chevrez</h3>
 <h3>esto solo por diversion y aprender cosas nuevas</h3>
 <h3>le ganara a wikipedia? <i>creo que no</i></h3>
 
-<br/>
+<hr/>
 
 <h3>¿QUE es ChevrezWiki?</h3>
 <p>
   ChevrezWiki es una pagina donde recopilo cualquier tipo de información<br/>
   si esto llega los <b style="font-size: 20px; color: brown;">200</b> articulos, tratare de usar mediawiki.
 </p>
+
+<hr/>
 
 <h3>El equipo</h3>
 <p>

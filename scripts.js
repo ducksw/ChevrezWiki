@@ -24,7 +24,7 @@ function buscar() {
   //result.innerHTML = `<div style="display: flex; flex-direction: column;">${arr.join('')}</div>`;
 
   let resultHTML = `<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Resultado de la búsqueda</title></head><body>`;
-  resultHTML += `<div id="art">Articulos <b style="color: brown; font-size: 25px;">${lis.length}</b></div>`;
+  resultHTML += `<div id="art" style="font-family: monospace";>Articulos <b style="color: brown; font-size: 25px;">${lis.length}</b></div>`;
   resultHTML += '<h1 style="font-size: 3rem; text-align: center;">ChevrezWiki (Search)</h1>';
   resultHTML += '<hr/ style="width: 100%;>';
   resultHTML += `<div id="list" style="display: flex; flex-direction: column; color: blue; max-width: 100%; width: 300px;">${arr.join('')}</div>`;

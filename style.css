@@ -1,0 +1,68 @@
+.boxx {
+  text-align: center;
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: none;
+  margin: auto;
+}
+
+.input {
+  max-width: 100%;
+  width: 300px;
+  font-family: sans-serif;
+  border: 1px solid black;
+  outline: none;
+  padding: 3px;
+}
+
+.input:focus {
+  box-shadow: 0px 0px 10px blue;
+}
+
+#res {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: 370px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#res a {
+  text-decoration: none;
+}
+
+#res a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+hr {
+  max-width: 100%;
+  width: 500px;
+}
+
+#links:hover {
+  color: black;
+}
+
+#box {
+  display: flex;
+  font-family: sans-serif;
+}
+
+#art {
+  text-align: center;
+}
+
+p {
+  font-family: monospace;
+}
+
+.link-login {
+  display: flex;
+  justify-content: end;
+}
