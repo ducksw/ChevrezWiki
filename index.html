@@ -1,28 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChevrezWiki</title>
+<style>
+.boxx {
+  text-align: center;
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: none;
+  margin: auto;
+}
+
+.input {
+  max-width: 100%;
+  width: 300px;
+  font-family: sans-serif;
+}
+
+#res {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: 370px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#res a {
+  text-decoration: none;
+}
+
+#res a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+hr {
+  max-width: 100%;
+  width: 500px;
+}
+
+#links {
+  display: flex;
+}
+
+#links:hover {
+  color: black;
+}
+
+#box {
+  display: flex;
+  font-family: sans-serif;
+}
+
+#art {
+  text-align: center;
+}
+
+</style>
 </head>
 <body>
 
-<script async src="https://cse.google.com/cse.js?cx=24e270ca4ddae48d8">
-</script>
-<div class="gcse-search"></div>
-<div id="search-container"></div>
+<a href="login.html" style="display: flex; justify-content: end;">Log in</a>
+<div class="boxx">
+
+<div id="art"></div>
+<br/>
+<div id="login">no name!!</div>
+
+<br/>
+<h1>ChevrezWiki</h1>
+
+<br/>
+
+<div class="inputs">
+<input type="text" class="input" id="input"> 
+<input type="submit" value="Search" onclick="buscar()">
+</div>
+
+<!-- si esto llega a los 200, lo tendre que pensar en crear un wikipedia. -->
+<div id="list" style="display: none">
+</div>
+
+<h3>ChevrezWiki una wiki chevrez</h3>
+<h3>esto solo por diversion y aprender cosas nuevas</h3>
+<h3>le ganara a wikipedia? <i>creo que no</i></h3>
 
 
-<script>
-  (function() {
-    var cx = '17e5d065ccae3423f'
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
+<br/>
+
+<h3>¿QUE es ChevrezWiki?</h3>
+<p>
+  ChevrezWiki es una pagina donde recopilo cualquier tipo de información<br/>
+  si esto llega los <b style="font-size: 20px; color: brown;">200</b> articulos, tratare de usar mediawiki.
+</p>
+
+<h3>El equipo</h3>
+<p>
+  Conoce la pagina <a href="https://duksito.github.io/Chevrez/">Chevrez</a>
+</p>
+<span>©ChevrezWiki</span>
+</div>
+
+<hr/>
+
+<div id="res"></div>
+
+<script src="scripts.js"></script>
+<script src="login.js"></script>
 </body>
 </html>
