@@ -67,14 +67,6 @@ p {
   justify-content: end;
 }
 
-#arti {
-  cursor: pointer;
-}
-
-#arti:hover {
-  text-decoration: underline;
-}
-
 #lis {
   display: flex;
   flex-direction: column;
@@ -91,3 +83,4 @@ p {
 #lis a:hover {
   text-decoration: underline;
 }
+

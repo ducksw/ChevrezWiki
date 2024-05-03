@@ -40,14 +40,14 @@ function buscar() {
 
 let art = document.getElementById('art');
 let lis = document.getElementById('list').children; 
-art.innerHTML = `<div id="art"><span id="arti" onclick="viewContent()">Articulos</span> <b style="color: brown; font-size: 25px;">${lis.length}</b></div>`
+art.innerHTML = `<div id="art"><span id="arti">Articulos</span> <b style="color: brown; font-size: 25px;">${lis.length}</b></div>`
 
 window.onload = function() {
   let loginData = JSON.parse(localStorage.getItem("loginData"));
   if (loginData) {
     let nameData = Object.keys(loginData)[0];
     let login = document.getElementById('login')
-    login.innerHTML = `<b style="font-size: 20px;">${nameData}</b>`;
+    login.innerHTML = `<b style="font-size: 20px;"><a style="color: black; text-decoration: none;" href="">${nameData}</a></b>`;
     console.log(nameData);
   }
 }
@@ -58,6 +58,7 @@ document.getElementById('input').addEventListener('keypress', function(event) {
   }
 });
 
+/*
 function viewContent() {
   let listHTML = `<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Resultado de la búsqueda</title></head><body>`;
   listHTML += `<a style="color: blue; text-decoration: none;" href="index.html">Volver...</a>`;
@@ -74,3 +75,4 @@ function viewContent() {
   
   document.body.innerHTML = listHTML;
 }
+*/

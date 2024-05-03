@@ -32,13 +32,11 @@ function upImage() {
       let imgRs = img.src = rd.result;
 
       localStorage.setItem('image', imgRs)
-
       frameImage.innerHTML = "";
-
       frameImage.appendChild(img);
   }
 
-  console.log(rd)
+  //console.log(rd)
 
   }
 }

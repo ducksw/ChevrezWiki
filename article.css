@@ -1,6 +1,7 @@
 body {
   background-color: #f8f9fa;
   font-size: 0.875rem;
+  font-family: sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -41,7 +42,6 @@ hr {
 }
 
 p {
-  font-family: sans-serif;
   line-height: 1.5714285;
   padding-bottom: 0.5em;
   margin: 0.5em 0 0 0;
@@ -51,8 +51,41 @@ p {
 
 img {
   max-width: 100%;
-  width: 250px;
+  max-width: 200px;
   float: right;
   cursor: pointer;
 }
 
+.cont-img {
+  display: flex;
+  max-width: 100%;
+  width: 600px;
+  height: 100%;
+}
+
+.cont {
+  display: flex;
+  gap: 10px;
+}
+
+#red {
+  color: #ba0000;
+  text-decoration: none;
+}
+
+a {
+  color: #36b;
+  text-decoration: none;
+}
+
+#red:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li::marker {
+  color: #36b;
+}

@@ -19,7 +19,7 @@
 
 </main>
 
-<script src="app.js"></script>
+<script src="../client/app.js"></script>
 
 </body>
 </html>
