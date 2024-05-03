@@ -16,8 +16,8 @@ function buscar() {
     if (input == "" || input == null) {
       return 0;
     } else if (text.toLocaleLowerCase().includes(input)) {
-      let capitalizedText = text.split(' ').map(replaceLetter).join(' ');
-      arr.push(`<div id="box"><a id="links" href="${link}" style="display: block; padding-left: 30px; padding: 1px; text-decoration: none; color: #36c;"><b">${capitalizedText}</b></a></div>`);
+      let wordText = text.split(' ').map(replaceLetter).join(' ');
+      arr.push(`<div id="box"><a id="links" href="${link}" style="display: block; padding-left: 30px; padding: 1px; text-decoration: none; color: #36c;"><b">${wordText}</b></a></div>`);
     }
   }
 
@@ -40,7 +40,7 @@ function buscar() {
 
 let art = document.getElementById('art');
 let lis = document.getElementById('list').children; 
-art.innerHTML = `<div id="art"><span id="arti" onclick="al()">Articulos</span> <b style="color: brown; font-size: 25px;">${lis.length}</b></div>`
+art.innerHTML = `<div id="art"><span id="arti" onclick="viewContent()">Articulos</span> <b style="color: brown; font-size: 25px;">${lis.length}</b></div>`
 
 window.onload = function() {
   let loginData = JSON.parse(localStorage.getItem("loginData"));
@@ -58,7 +58,7 @@ document.getElementById('input').addEventListener('keypress', function(event) {
   }
 });
 
-function al() {
+function viewContent() {
   let listHTML = `<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Resultado de la búsqueda</title></head><body>`;
   listHTML += `<a style="color: blue; text-decoration: none;" href="index.html">Volver...</a>`;
   listHTML += `<h1>TODO EL CONTENIDO</h1>`;

@@ -2,5 +2,10 @@
 - Copiar el contenido que tiene el layout.
 
 
-== Para iniciar el servidor
+== Para iniciar el servidor == 
+- 
+
+```bash
+# Usar GitBash
 ./server.sh
+```

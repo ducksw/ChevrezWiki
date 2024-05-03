@@ -64,6 +64,11 @@ input {
   text-align: center;
   font-size: 14px;
 }
+
+.perfil {
+  display: flex;
+  gap: 10px;
+}
 </style>
 </head>
 <body>
@@ -88,7 +93,14 @@ input {
     <span>crear una cuenta es algo visual.</span>
   </div>
   <h3>Perfil</h3>
-  <div id="perfil"></div>
+  <div class="perfil">
+    <div id="perfil"></div>
+    <input type="file" id="file" accept="image/*" onchange="upImage()"/>
+  </div>
+
+  <br/>
+
+  <div id="frameImage"></div>
 </div>
 
 <script src="client/login.js"></script>
