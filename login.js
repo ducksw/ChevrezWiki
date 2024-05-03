@@ -12,7 +12,7 @@ function loginn() {
   localStorage.setItem("loginData", JSON.stringify(loginData));
 
 
-  conn.innerHTML = `connect to chevrezWiki as <b style="font-size: 20px;">${name}</b>`
+  conn.innerHTML = `connect to chevrezWiki as <b>${name}</b>`
   conn.style.padding = "5px";
 
   setInterval(function () {
@@ -21,7 +21,7 @@ function loginn() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  // recupera el dato
+  // recupera el dato del localStorage
   let loginData = JSON.parse(localStorage.getItem("loginData")) || {};
   let userName = Object.keys(loginData)[0]; // elije el primer dato que es nombre
 

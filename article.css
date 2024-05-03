@@ -1,5 +1,6 @@
 body {
-  background-color: #eee;
+  background-color: #f8f9fa;
+  font-size: 0.875rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -15,6 +16,7 @@ main {
   max-width: 100%;
   width: 900px;
   margin: auto;
+  border: 1px solid #a2a9b1;
 }
 
 .text {
@@ -41,15 +43,16 @@ hr {
 p {
   font-family: sans-serif;
   line-height: 1.5714285;
-  font-size: 0.875rem;
   padding-bottom: 0.5em;
   margin: 0.5em 0 0 0;
   z-index: 1;
+  color: #202122;
 }
 
 img {
   max-width: 100%;
   width: 250px;
   float: right;
+  cursor: pointer;
 }
 

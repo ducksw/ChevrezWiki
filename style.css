@@ -66,3 +66,28 @@ p {
   display: flex;
   justify-content: end;
 }
+
+#arti {
+  cursor: pointer;
+}
+
+#arti:hover {
+  text-decoration: underline;
+}
+
+#lis {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: rgb(35, 72, 145);
+}
+
+#lis a { 
+  text-decoration: none;
+  color: #36c;
+}
+
+#lis a:hover {
+  text-decoration: underline;
+}

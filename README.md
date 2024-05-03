@@ -1,1 +1,1 @@
-- Crear un login 
+- A las imagenes se tiene que poner la ID -> "id=image"

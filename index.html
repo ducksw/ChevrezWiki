@@ -23,13 +23,14 @@
 <br/>
 
 <div class="inputs">
-<input type="text" class="input" id="input" placeholder="Search..."> 
+<input type="text" class="input" id="input" placeholder="Chevrez Search"> 
 <input type="submit" value="Search" onclick="buscar()">
 </div>
 
 <!-- si esto llega a los 200, lo tendre que pensar en crear un wikipedia. -->
+<!-- NOTE: IMPORTANTE PONER EL id="link" -->
 <div id="list" style="display: none">
-  <a href="Articles/TON_618.html">TON 618</a>
+  <a id="link" href="Articles/TON_618.html">TON 618</a>
 </div>
 
 <h3>ChevrezWiki es una wiki chevrez</h3>
@@ -59,6 +60,9 @@
 <p style="text-align: center;">no se si esto sera algo publico pude ser que si, con el tiempo vamos a ver.</p>
 
 <div id="res"></div>
+
+<div id="table"></div>
+
 <script src="scripts.js"></script>
 </body>
 </html>
