@@ -1,91 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pirata+One&family=Press+Start+2P&display=swap');
+
 body {
   background-color: #f8f9fa;
-  font-size: 0.875rem;
-  font-family: sans-serif;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  margin: 0;
-  font-family: 'Georgia';
-  font-weight: normal;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
 }
 
 main {
   display: flex;
-  flex-direction: column;
-  background-color: white;
-  max-width: 100%;
-  width: 900px;
-  margin: auto;
-  border: 1px solid #a2a9b1;
-}
-
-.text {
-  padding: 10px;
-}
-
-hr {
-  width: 100%;
-}
-
-.title-link {
-  display: flex;
   justify-content: center;
-  font-size: 35px;
-  text-decoration: none;
-  color: black;
-  font-family: monospace;
-}
-
-.title-link:hover {
-  text-decoration: underline;
-}
-
-p {
-  line-height: 1.5714285;
-  padding-bottom: 0.5em;
-  margin: 0.5em 0 0 0;
-  z-index: 1;
-  color: #202122;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
 }
 
 img {
   max-width: 100%;
-  max-width: 200px;
-  float: right;
-  cursor: pointer;
-}
-
-.cont-img {
-  display: flex;
-  max-width: 100%;
-  width: 600px;
-  height: 100%;
-}
-
-.cont {
-  display: flex;
-  gap: 10px;
-}
-
-#red {
-  color: #ba0000;
-  text-decoration: none;
-}
-
-a {
-  color: #36b;
-  text-decoration: none;
-}
-
-#red:hover {
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-li::marker {
-  color: #36b;
+  width: 200px;
 }

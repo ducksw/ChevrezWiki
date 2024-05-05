@@ -1,10 +1,21 @@
-.boxx {
-  text-align: center;
+body {
+  margin: 0;
   font-family: monospace;
 }
 
+.boxx {
+  text-align: center;
+  height: 100vh;
+}
+
+.mybox {
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: none;
   margin: auto;
 }
@@ -15,20 +26,29 @@ h1 {
   font-family: sans-serif;
   border: 1px solid black;
   outline: none;
-  padding: 3px;
+  padding: 4px;
+  border-radius: 3px;
 }
 
 .input:focus {
   box-shadow: 0px 0px 10px blue;
 }
 
+.btn {
+  font-family: monospace;
+}
+
 #res {
   display: flex;
-  justify-content: center;
   max-width: 100%;
   width: 370px;
   margin: auto;
   margin-top: 30px;
+  height: 350px;
+  background-color: #eeeeee;
+  padding: 3px;
+  border-style: groove;
+  overflow: auto;
 }
 
 #res a {
@@ -45,17 +65,36 @@ hr {
   width: 600px;
 }
 
+#links {
+  display: block;
+  padding-left: 30px;
+  padding: 1px;
+  text-decoration: none;
+  color: #062DA1;
+  font-family: none;
+  margin-left: 10px;
+}
+
 #links:hover {
   color: black;
 }
 
 #box {
   display: flex;
-  font-family: sans-serif;
+  align-items: center;
+  font-family: monospace;
 }
 
 #art {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  max-width: 100%;
+  width: 150px;
+  margin: auto;
+  padding: 5px;
+  color: white;
 }
 
 p {
@@ -65,6 +104,7 @@ p {
 .link-login {
   display: flex;
   justify-content: end;
+  margin-right: 10px;
 }
 
 #lis {
@@ -82,5 +122,11 @@ p {
 
 #lis a:hover {
   text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 

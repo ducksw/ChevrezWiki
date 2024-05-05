@@ -20,26 +20,6 @@ function loginn() {
   },3000)
 }
 
-function upImage() {
-  let frameImage = document.getElementById('frameImage');
-  let archivo = document.getElementById("file").files[0];
-  let rd = new FileReader();
-
-  if (archivo) {
-    rd.readAsDataURL(archivo);
-    rd.onloadend = function () {
-      let img = document.createElement('img');
-      let imgRs = img.src = rd.result;
-
-      localStorage.setItem('image', imgRs)
-      frameImage.innerHTML = "";
-      frameImage.appendChild(img);
-  }
-
-  //console.log(rd)
-
-  }
-}
 
 document.addEventListener('DOMContentLoaded', function () {
   // recupera el dato del localStorage
