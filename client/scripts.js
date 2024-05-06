@@ -18,7 +18,14 @@ function buscar() {
     } else if (text.toLocaleLowerCase().includes(input)) {
       let wordText = text.split(' ').map(replaceLetter).join(' ');
       arr.push(`<div id="box">Search Result -> <a id="links" href="${link}"><b">${wordText}</b></a></div>`);
-    }
+    } 
+  }
+
+  if (arr.length === 0) {
+    let res2 = document.getElementById('res2');
+    res2.innerHTML = `El resultado <b>${input}</b> no fue encontrado.`
+  } else {
+    res2.innerHTML = " ";
   }
 
   document.getElementById('input').value = "";
@@ -35,7 +42,7 @@ window.onload = function() {
   if (loginData) {
     let nameData = Object.keys(loginData)[0];
     let login = document.getElementById('login')
-    login.innerHTML = `<b style="font-size: 20px;"><span onclick="user();" style="color: black; text-decoration: none; cursor: pointer;" >${nameData}</span></b>`;
+    login.innerHTML = `<b style="font-size: 20px;"><span style="color: black;" >${nameData}</span></b>`;
     console.log(nameData);
   }
 }
@@ -45,9 +52,5 @@ document.getElementById('input').addEventListener('keypress', function(event) {
     buscar();
   }
 });
-
-function user() {
-  window.location.href = "user.html";
-}
 
 

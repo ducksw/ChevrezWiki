@@ -5,21 +5,27 @@ function loginn() {
   let conn = document.getElementById('connect');
   let perfil = document.getElementById('perfil'); 
 
-  let loginData = JSON.parse(localStorage.getItem("loginData")) || {};
 
-  loginData[name] = true;
+  if (name == "" || name == null) {
+    alert("complete los campos");
+  } else  if (password == "" || password == null) {
+    alert("complete los campos");
+  } else {
+    let loginData = JSON.parse(localStorage.getItem("loginData")) || {};
 
-  localStorage.setItem("loginData", JSON.stringify(loginData));
+    loginData[name] = true;
+
+    localStorage.setItem("loginData", JSON.stringify(loginData));
 
 
-  conn.innerHTML = `connect to chevrezWiki as <b>${name}</b>`
-  conn.style.padding = "5px";
+    conn.innerHTML = `connect to chevrezWiki as <b>${name}</b>`
+    conn.style.padding = "5px";
 
-  setInterval(function () {
-    window.location.href = "index.html";
-  },3000)
+    setTimeout(function () {
+      window.location.href = "index.html";
+    },3000)
+  }
 }
-
 
 document.addEventListener('DOMContentLoaded', function () {
   // recupera el dato del localStorage
@@ -36,8 +42,5 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   let perfil = document.getElementById('perfil'); 
-
-  if (userName) {
-    perfil.innerHTML = userName;
-  }
 });
+
