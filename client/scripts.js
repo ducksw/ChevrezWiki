@@ -2,7 +2,6 @@ function replaceLetter(word) {
   return word.charAt(0).toUpperCase() + word.slice(1);
 }
 
-
 function buscar() {
   let input = document.getElementById('input').value.trim().toLowerCase(); 
   let lis = document.getElementById('list').children; 
@@ -55,13 +54,5 @@ document.getElementById('input').addEventListener('keypress', function(event) {
   }
 });
 
-
-let liArr = [];
-function randomList() {
-  let lis = document.getElementById('list').children;
-  liArr.push(lis);
-}
-
-randomList();
 
 

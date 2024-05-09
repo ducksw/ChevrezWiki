@@ -1,11 +1,13 @@
-- A las imagenes se tiene que poner la ID -> "id=image".
+- A las imagenes se tiene que poner la clase -> "class=image".
 
 
 [git](https://git-scm.com/downloads)
-== Para iniciar el servidor == 
-- 
-
 ```bash
+== Para iniciar el servidor == 
+
 # Usar GitBash
 ./server.sh
+
+# Para crear un archivo HTML
+./build.sh
 ```

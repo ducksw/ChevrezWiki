@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuarta dimensión</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="title">
+  <h1><a href="../index.html">ChevrezWiki</a></h1>
+  <hr/>
+</div>
+<div class="box">
+<article>
+
+<!-- Titulo -->
+<h1 id="title">Cuarta dimensión</h1>
+
+<div class="parr">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/8-cell.gif" class="image">
+
+<p>El <b>término cuarta dimensión</b> aparece en diversos contextos como la física, las matemáticas, la ciencia ficción y la espiritualidad. En cada contexto el significado es diferente:</p>
+
+<ul>
+  <li>En física, se hace referencia a la <b>cuarta dimensión</b> al hablar del tiempo, principalmente desde el planteamiento del espacio-tiempo en la teoría de la relatividad.</li>
+  <li>En matemática, el concepto aparece asociado o bien a espacios euclídeos de más de tres dimensiones o, más generalmente, a espacios localmente euclídeos o 4-variedades diferenciables.</li>
+  <li>En la ciencia ficción hace referencia a otros mundos o universos.</li>
+  <li>En la espiritualidad la cuarta dimensión hace referencia al espacio donde podemos habitar en un estado de libre consciencia.</li>
+</ul>
+</div>
+
+<h2>Historia de la cuarta dimensión</h2>
+<hr/>
+
+<div class="parr">
+<p>
+El interés en las dimensiones más altas alcanzó su clímax entre 1870 y 1920. En esos años se convirtió en tema frecuente en la literatura fantástica, el arte e incluso algunas teorías científicas. La cuarta dimensión, entendida como dimensión espacial adicional (no como dimensión temporal, como en la teoría de la relatividad) apareció en las obras literarias de Oscar Wilde, Fiódor Dostoyevski, Marcel Proust, H. G. Wells y Joseph Conrad, inspiró algunas obras musicales de Aleksandr Skriabin, Edgar Varèse y George Antheil y algunas obras plásticas de Pablo Picasso y Marcel Duchamp, influyendo en el desarrollo del cubismo. Incluso personajes tan diversos como el psicólogo William James, la escritora Gertrude Stein o el socialista revolucionario Vladímir Lenin se interesaron por el tema.
+</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/24-cell.gif" class="image">
+<p>
+Igualmente, los matemáticos habían estado interesados en el tema al tratar de generalizar los conceptos de la geometría euclidiana tridimensional. El matemático Charles L. Dodgson, que enseñó en la Universidad de Oxford, deleitó a generaciones de escolares escribiendo libros bajo el pseudónimo de Lewis Carroll, que incorporaban algunas ideas sobre la cuarta dimensión. Desde el punto de vista académico, el estudio general de la geometría de la cuarta dimensión es en gran parte resultado de los trabajos de Bernhard Riemann. Charles Howard Hinton, matemático y escritor de ciencia ficción británico, acuñó muchos neologismos para describir elementos en la cuarta dimensión. De acuerdo con el Oxford English Dictionary, fue el primero en emplear la palabra tesseract en su libro Una nueva era del pensamiento. También inventó las palabras “kata” (del griego “abajo”) y “ana” (del griego “arriba”) para describir las dos direcciones opuestas en la cuarta dimensión, equivalentes a derecha-izquierda, arriba-abajo, y adelante-atrás (véase su obra La cuarta dimensión).
+</p>
+
+<p>
+Los trabajos matemáticos sobre geometrías multidimensionales y geometrías no euclidianas habían sido considerados por los físicos como simples abstracciones matemáticas, hasta que Henri Poincaré probó que el grupo de transformaciones de Lorentz, que dejaban invariantes las ecuaciones del electromagnetismo, podían ser interpretadas como "rotaciones" en un espacio de cuatro dimensiones. Más tarde, los trabajos de Einstein y la interpretación geométrica de estos por parte de Hermann Minkowski llevaron a la aceptación de la cuarta dimensión como una descripción necesaria para explicar los hechos observados relacionados con el electromagnetismo. Sin embargo, aquí la "cuarta dimensión" no era un lugar separado del espacio tridimensional (como en varias de las obras de ficción de la época) ni tampoco una dimensión espacial análoga a las otras tres dimensiones espaciales, sino una dimensión temporal que solo puede recorrerse hacia el futuro. En la teoría general de la relatividad el campo gravitatorio es explicado como un efecto geométrico de la curvatura de un espacio-tiempo de cuatro dimensiones.
+</p>
+
+<p>
+Más tarde, la teoría de Kaluza-Klein propuso que no solo el campo gravitatorio podía ser interpretado de forma más sencilla como curvatura de un "espacio" de más de tres dimensiones, sino que si se introducía una nueva dimensión espacial enrollada o «compactificada», también el campo electromagnético podía ser interpretado como un efecto geométrico de la curvatura de dimensiones superiores. Así, Kaluza proponía una teoría de campo unificado del electromagnetismo y la gravedad en un espacio-tiempo de cinco dimensiones: con una dimensión temporal, tres dimensiones espaciales extendidas y una dimensión espacial «compactificada» adicional, que, debido a su condición de compactificada, no era directamente visible, pero su efecto era perceptible en forma de campo más electromagnético.
+</p>
+
+</div>
+
+<h2>Cuarta dimensión en matemáticas</h2>
+<hr/>
+
+<p>
+Un ángulo recto se describe como un cuarto de una revolución. La geometría cartesiana escoge direcciones ortogonales arbitrariamente a través del espacio, lo que significa que cada dirección está en ángulo recto con las demás. Las tres dimensiones ortogonales del espacio se conocen como altitud, longitud y latitud. La cuarta dimensión, por lo tanto, es la dirección en el espacio con ángulo recto a las 3 direcciones observables.
+</p>
+
+<h3>Vectores espaciales</h3>
+
+<div class="parr">
+<p>
+Un vector espacial es un conjunto de vectores, los cuales podemos imaginarlos como flechas, que proviene de un simple lugar llamado origen (vectores geométricos), que apuntan a otros lugares.
+</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Dice_analogy-_1_to_5_dimensions.svg/330px-Dice_analogy-_1_to_5_dimensions.svg.png" class="image" style="border: 1px solid darkgrey;">
+
+<p>
+Un punto es un objeto de cero dimensiones. No tiene extensión en el espacio ni propiedades, como una flecha, pero sin longitud. Este vector es llamado el vector cero y es el más simple vector espacial.
+</p>
+
+<p>
+Una línea es un objeto unidimensional. Si escogemos un cierto vector distinto a cero en una cierta dirección, este vector tiene cierta longitud definida. Ese vector tiene una cabeza en un cierto punto en espacio y una cola en el origen. Si pensamos en estirar que ese vector así sea dos veces su largo, tres veces, etcétera y uniformemente, tomando todas las longitudes posibles (incluso la longitud cero, conseguir el vector cero), conseguiremos una sola línea con una sola dimensión: La de la longitud. Todos los vectores que describen puntos en esta línea serían paralelos. Aunque para visualizar la línea es necesario que ésta tenga un ancho mínimo, sin embargo, una línea de 1D no la tendría.
+</p>
+
+<p>
+Un plano es un objeto de dos dimensiones. Tiene longitud y anchura, pero no profundidad - algo como una hoja de papel, o más exactamente algo como las imágenes en un televisor común. El pensamiento en un plano en términos de vectores puede ser un poco más desafiante. Si pensamos en tomar un vector y lo movemos de modo que su cola esté tocando la cabeza del primero y esté formando un vector con su cola en el origen y la cabeza en la cabeza del segundo vector colocado de nuevo, tenemos una manera razonable de hablar de vectores de adición. Si tenemos dos vectores que no sean paralelos, podemos hablar de todos los puntos que podemos alcanzar por o solamente el estirar o ningunos de los vectores, y, agregando estos vectores juntos, estos puntos forman un plano.
+</p>
+
+<p>
+El espacio, como lo percibimos, es tridimensional. Podemos pensar en poner una línea junto con un plano. Estas líneas son como un emparedado. Para conseguir a un cierto punto en espacio, podemos imaginarnos el viajar encima de la línea y después el movernos a través del plano al punto. Entonces tenemos tres vectores a pensar alrededor, uno a viajar una cierta distancia encima de la línea y dos para conseguir a un cierto punto en espacio.
+</p>
+
+<p>Para tres rectas ortogonales en el espacio tridimensional (x, "y", y z) existe una cuarta, normal al espacio, ortogonal a estas tres rectas, que forma un eje p. ej. w.</p>
+
+<p>
+El producto vectorial es la determinante de una matriz 4×4, donde una de las filas (o columnas) son los vectores unitarios h, i, j y k y las demás (filas o columnas respectivamente) están formadas por las componentes de tres vectores tetradimensionales cualesquiera, este producto nos dará un cuarto vector perpendicular a estos tres mismos.
+</p>
+
+</div>
+
+<h3>Geometría tetradimensional en cuatro dimensiones espaciales</h3>
+<p>
+La geometría euclidiana prevé una mayor variedad de formas para existir que en tres dimensiones. Los poliedros tridimensionales son recintos espaciales hechos de caras de dos dimensiones conectadas, los policronos cuatridimensionales son recintos del espacio cuadridimensional hechos de poliedros tridimensionales. Donde en tres dimensiones, hay exactamente cinco poliedros regulares, o los sólidos platónicos, que pueden existir, seis policronos regulares existen en la cuarta dimensión. Cinco de los seis se pueden interpretar como extensiones naturales de los sólidos platónicos, así como el cubo, un sólido platónico, es una extensión del cuadrado de dos dimensiones. El pentachoron está hecho de 5 tetraedros para las caras y 10 caras triangulares, y es el análogo cuadridimensional del tetraedro. El teseracto o hipercubo se compone de 8 caras cúbicas y de 24 cuadrados, y es el politopo cuadridimensional medido. Los teseractos se doblan, la 16-celdas, son el equivalente del octaedro, pues son ambos politopos de cruz. Los politopos de 120 celdas y los de 600 celdas se doblan de igual modo, y son análogos al dodecaedro y al icosaedro, respectivamente. El de 24 celdas es un policrono regular único y que no tiene ningún equivalente tridimensional. Apenas pues la esfera, o 2-esfera, es una superficie de dos dimensiones curvada compuesta de todos los puntos equidistantes de un punto central dado, en un espacio tridimensional, la 3-esfera, una clase de hiperesfera, es el espacio que contiene todos los puntos equidistantes a un punto central dado, en un espacio cuadridimensional. Cada sección transversal tridimensional de un 3-esfera es un 2-esfera.
+</p>
+
+<p>
+Pogamos un ejemplo: en un hiperplano(un plano que representa tres dimensiones como una hoja) se puede representar una cuarta dimensión como la prolongación del plano en la tercera. La fórmula de una esfera 2D sería R<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup>; en tres, R<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> así, podríamos seguir con una cuarta, R<sup>2</sup>= x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + w<sup>2</sup> y por tanto si despejamos para poder adaptarlo a nuestro mundo.
+</p>
+
+<pre>                                            (R<sup>2</sup>-w<sup>2</sup>)= x<sup>2</sup>+y<sup>2</sup>+z<sup>2</sup>
+</pre>
+
+<h3>Analogía dimensional</h3>
+<p>
+La <b>analogía dimensional</b> se usa frecuentemente para comprender el salto de una dimensión (en este caso, la tercera dimensión) a una más alta (cuarta dimensión). La analogía dimensional consiste en resolver un problema en n + 1 dimensiones relacionándolo primero con un problema análogo de (n - 1) dimensión, vale decir, "una dimensión menos". E igualmente debe analizarse el caso de cómo se relaciona el problema en n con el de (n + 1) dimensiones, es decir, "una más".
+</p>
+
+<h4>Ejemplos:</h4>
+<p>
+Edwin Abbott Abbott en su libro Planilandia (Flatland) escribe sobre un "ser cuadrado" que vive en un mundo de dos dimensiones, como la superficie de un pedazo de papel. Este "cuadrado" se enfrenta a experimentos de un ser tridimensional. El ser tridimensional es percibido por el "cuadrado" como un ser aparentemente divino, ya que puede poner y quitar objetos de una caja fuerte sin romperla ni abrirla (moviéndolos a través de su tercera dimensión), ver todo desde de la perspectiva de dos dimensiones sea incluido detrás de las paredes (puesto que ve "sobre" Planilandia), y totalmente invisible para los habitantes de Planilandia, puesto que está "arriba" y una dimensión por arriba de las dos dimensiones en las que el cuadrado está atrapado. No obstante, el ser tridimensional podría manifestarse en el mundo de dos dimensiones, pero solo parcialmente, si fuera una esfera, aparecería como una secuencia de círculos sucesivos "que cambian de tamaño" (intersecciones de la esfera con el plano de dos dimensiones). Aplicando analogía dimensional, uno puede deducir que el ser cuatridimensional sería capaz de hazañas similares de nuestra perspectiva tridimensional.
+</p>
+
+<p>
+Rudy Rucker demuestra esto en su novela "Spaceland", en la cual el protagonista encuentra los seres tetradimensionales que demuestran tales energías. Un uso útil de la analogía dimensional en visualizar la cuarta dimensión está en la proyección. Una proyección es una manera para representar un objeto (n+1)-dimensional en la n-dimensión. Por ejemplo, las pantallas de computadora son de dos dimensiones, y todas las fotografías de objetos tridimensionales son representadas en dos dimensiones puesto que la información de la tercera dimensión (o de la profundidad) no puede ser representada por la pantalla (si el observador se mueve, aleje o acerque, la imagen no cambiará). En este caso, la profundidad se quita y se substituye por la <b>información indirecta</b>. La retina del ojo es un arsenal de dos dimensiones de receptores, pero puede permitir que el cerebro perciba la naturaleza de objetos tridimensionales usando la información indirecta (como la perspectiva, el sombreado, visión binocular, etc.).
+</p>
+
+<p>
+La perspectiva del uso de los artistas da profundidad tridimensional a los cuadros de dos dimensiones. Asimismo, los objetos en la cuarta dimensión se pueden proyectar matemáticamente a las familiares tres dimensiones, donde pueden entonces ser examinados más convenientemente. En este caso, la "retina de un ojo cuadridimensional" tendría un arsenal de receptores tridimensionales. El ser hipotético con tal ojo percibiría la naturaleza de objetos cuatridimensionales usando la información indirecta contenida en las imágenes que recibe en su retina. La proyección de la perspectiva a partir de cuatro dimensiones produce efectos similares como en el caso tridimensional, tal como la perspectiva.
+</p>
+
+<p>
+Esto agrega "profundidad cuadridimensional" a estos cuadros tridimensionales. La analogía dimensional también ayuda a entender tales proyecciones. Por ejemplo, los objetos de dos dimensiones son limitados por límites unidimensionales: un cuadrado es limitado por cuatro bordes o líneas. Los objetos tridimensionales son limitados por superficies de bidimensionales: un cubo es limitado por 6 cuadrados. Aplicando analogía dimensional, uno puede deducir que un cubo cuatridimensional, conocido como teseracto, es limitado por los volúmenes tridimensionales.
+</p>
+
+<p>
+Y de hecho, este es el caso matemáticamente: el teseracto es limitado por 8 cubos. Saber esto es indispensable para entender cómo interpretar una proyección tridimensional del teseracto. Los límites del teseracto proyectan a los volúmenes en la imagen, superficies no simplemente de dos dimensiones. Esto ayuda a entender las características de dichas dimensiones que de otra manera solo confundirían.
+</p>
+
+<p>
+Saliendo de la literatura, una analogía con el concepto de sombras puede ayudar mejor a entender la teoría de cuatro dimensiones. Si usted proyectara una luz sobre objeto tridimensional, este proyectaría una sombra de dos dimensiones. Por lo tanto la luz en un objeto de dos dimensiones echaría una sombra unidimensional (en un mundo de dos dimensiones), y la luz en un objeto unidimensional en un mundo unidimensional echaría una sombra cero-dimensional, es decir, un punto de la no-luz. Esta idea se puede utilizar en la otra dirección; la luz en un objeto cuadridimensional proyectaría una sombra tridimensional. Como ejemplo, la sombra de un cubo transparente, proyectaría una sombra sobre el papel, de dos cuadrados, unidos por sus vértices con 4 segmentos.
+</p>
+
+<p>
+Semejantemente, si era un cubo cuatridimensional iluminado con luz de 4 dimensiones, su sombra sería la de un cubo tridimensional dentro de otro cubo tridimensional. Siendo tridimensionales podemos solamente ver el mundo con nuestros ojos en dos dimensiones; el ser cuatridimensional consideraría el mundo en tres. Así podría, por ejemplo, ver los seis lados de una caja opaca simultáneamente. No solamente eso; también podría ver lo que hay al interior de la caja, como en <b><i>Planilandia</i></b>, en donde la esfera ve objetos en el mundo de dos dimensiones y todo dentro de ellos simultáneamente. Análogo, un espectador cuadridimensional vería todos los puntos en nuestro espacio tridimensional simultáneamente, incluyendo la estructura interna de objetos sólidos y de cosas obscurecidos de nuestro punto de vista.
+</p>
+
+<h2>Cuarta dimensión en física</h2>
+<hr/>
+<p>
+Albert Einstein en su célebre teoría de 1905 de la relatividad especial habló por primera vez del tiempo como una cuarta dimensión y como algo indispensable para ubicar un objeto en el espacio y en un momento determinado. El tiempo en la teoría de la relatividad no es una dimensión espacial más, ya que fijado un punto del espacio-tiempo este puede ser no alcanzable desde nuestra posición actual, hecho que difiere de la concepción usual de dimensión espacial. Aunque inicialmente se interpretó el tiempo como una "dimensión" matemática necesaria para ubicar un evento u objeto, en la teoría de la relatividad general el tiempo es tratado como una dimensión geométrica más, aunque los objetos materiales no puedan seguir una trayectoria completamente arbitraria a lo largo del tiempo (como por ejemplo "dar la vuelta" y viajar al pasado). La necesidad del tiempo dentro de la teoría de la relatividad existe por dos motivos:
+</p>
+<ul>
+<li>En primer lugar, los objetos no solo se mueven a través del espacio sino que también lo hacen a través del tiempo, es decir su coordenada temporal aumenta continuamente, por lo que hubo la necesidad de hablar del tiempo ligado al espacio como la cuarta dimensión o espacio-tiempo. Además el ritmo de avance en la dimensión temporal depende del estado de movimiento del observador, produciéndose una dilatación temporal efectiva para los observadores más rápidos en relación con el tiempo medido por un observador estacionario.
+</li>
+
+<li>En segundo lugar, el carácter intrínseco del espacio-tiempo y su cuatridimensionalidad requiere un modo conceptualmente diferente de tratar la geometría del universo, puesto que una cuarta dimensión implica un espacio plano (bidimensional) que se curva en la teoría de la relatividad general por la acción de la gravedad de la materia originándose la curvatura del espacio-tiempo.
+</li>
+</ul>
+
+<p>
+También cabe añadir que algunas teorías físicas como la teoría de Kaluza-Klein y las teoría de supercuerdas, en sus varias versiones, añaden a las tres dimensiones físicas espaciales entre 1 y 9 dimensiones espaciales adicionales, de tipo compacto; además de la dimensión temporal. Finalmente, destacamos la teoría del agujero 4d que nos daría la idea de que los agujeros negros son materia en 4 dimensiones, debido a que para su creación, materia 3d debe implosionar.
+</p>
+
+<h2>La cuarta dimensión en el arte</h2>
+
+<p>La cuarta dimensión es un concepto que se puede encontrar repetidamente dentro de las distintas tendencias de las vanguardias artísticas de principios de siglo xx. Este término fue incorporado al arte, influyendo a diversos artistas, gracias a la inquietud de matemáticos, artistas, filósofos y literatos que vieron en la cuarta dimensión la posibilidad de relativizar la exactitud de la ciencia y del conocimiento humano. Porque más allá de la creencias paranormales o las ilusiones de la ciencia ficción, la cuarta dimensión es un concepto que llevó al ser humano a seguir preguntándose sobre su papel en el universo, motivándolo a ver y entender el nuevo universo que se le estaba planteando.
+</p>
+
+<h3>La cuarta dimensión en la espiritualidad o a nivel espiritual y de conocimiento</h3>
+<ul><li>En la espiritualidad la cuarta dimensión se encuentra dentro de nosotros mismos, es donde nuestra consciencia se conecta con la conciencia mayor universal, más allá y sobre lo físico, para encontrar la cuarta dimensión se debe buscar a nivel interno, (buscar la morada de la voz que escuchas en tu cabeza), es un estado que requiere concentración mental ya que es tangible solo a nivel psíquico, todos los seres tenemos acceso a la cuarta dimensión, pero tenemos que dejar el cuerpo de tres dimensiones para ello, el cuerpo humano tan solo es un instrumento o una especie de ventana para interactuar en este mundo de tres dimensiones. La cuarta dimensión es el espacio donde habita la consciencia o esencia que está en cada cuerpo consiente, es la forma correcta de acceder al universo que conocemos y observamos por medio de telescopios y sondas espaciales
+</li></ul>
+
+</article>
+
+</div>
+
+<script src="../client/app.js"></script>
+</body>
+</html>

@@ -2,8 +2,8 @@
 
 body {
   font-family: "Segoe UI";
-  /*font-size: 0.875rem;*/
-  max-width: 1000px;
+  /* font-size: 0.875rem; */
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 50px;
   box-sizing: border-box;
@@ -21,15 +21,27 @@ img {
   float: right;
   max-width: 100%;
   width: 250px;
-}
-
-.parr warning {
-  float: right;
-  max-width: 100%;
-  width: 120px;
+  margin-left: 5px;
 }
 
 p {
   font-family: "Noto Sans", sans-serif;
 }
 
+#title {
+  font-size: 30px;
+  margin: 0;
+}
+
+h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+pre {
+  padding: 1em;
+  white-space: pre-wrap;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  background-color: #f8f9fa;
+  border: 1px solid #eaecf0;
+}
