@@ -1,7 +1,7 @@
 - A las imagenes se tiene que poner la ID -> "id=image".
-- Copiar el contenido que tiene el layout.
 
 
+[git](https://git-scm.com/downloads)
 == Para iniciar el servidor == 
 - 
 

@@ -8,6 +8,8 @@ function buscar() {
   let lis = document.getElementById('list').children; 
   let result = document.getElementById('res');
 
+  console.log(lis);
+
   let arr = [];
 
   for (let i = 0; i < lis.length; i++) {
@@ -25,11 +27,10 @@ function buscar() {
   if (arr.length === 0) {
     let res2 = document.getElementById('res2');
     res2.innerHTML = `El resultado <b>${input}</b> no fue encontrado.`
-  } else {
-    res2.innerHTML = " ";
-  }
+    document.getElementById('input').value = "";
+  } 
 
-  document.getElementById('input').value = "";
+  //document.getElementById('input').value = "";
 
   result.innerHTML = `<div style="display: flex; flex-direction: column;">${arr.join('')}</div>`;
 }

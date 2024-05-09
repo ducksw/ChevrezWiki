@@ -95,6 +95,7 @@ hr {
   margin: auto;
   padding: 5px;
   color: white;
+  gap: 5px;
 }
 
 p {

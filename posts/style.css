@@ -1,69 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pirata+One&family=Press+Start+2P&display=swap');
+
 body {
   font-family: "Segoe UI";
-  background-color: #eee;
-  font-size: 0.875rem;
-}
-
-.box {
-  max-width: 50em;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px;
-  background-color: white;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  font-weight: 400;
-}
-
-p {
-  margin-bottom: 15px;
-} 
-
-h1 {
-  font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1;
-  text-align: center;
-}
-
-hr {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: darkblue;
-  text-decoration: none;
+  /*font-size: 0.875rem;*/
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box;
 }
 
 img {
   max-width: 100%;
   vertical-align: middle;
   cursor: pointer;
+  max-width: 300px;
+  margin-right: 15px;
 }
 
-pre {
-  padding: 16px;
-  overflow: auto;
-  font-size: 15px;
-  line-height: 1.45;
-  background-color: #f6f8fa;
-  border-radius: 3px;
+.parr img {
+  float: right;
+  max-width: 100%;
+  width: 250px;
 }
 
-blockquote {
-  color: black;
-  border-left: 4px solid black;
-  padding-left: 15px;
-  font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic;
-  margin: 0;
-  background-color: beige;
+.parr warning {
+  float: right;
+  max-width: 100%;
+  width: 120px;
 }
 
-.title h1 {
-  margin: 0;
+p {
+  font-family: "Noto Sans", sans-serif;
 }
+

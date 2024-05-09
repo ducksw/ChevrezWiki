@@ -26,17 +26,16 @@
 <div class="inputs">
 <input type="text" class="input" id="input" placeholder="Chevrez Search"><br/><br/>
 <input type="submit" value="Chevrez Search" onclick="buscar()" class="btn">
-<input type="submit" value="I'm Feeling Lucky" class="btn">
+<input type="submit" value="I'm Feeling Lucky" onclick="fail()" class="btn">
 </div>
 
 
 <!-- si esto llega a los 200, lo tendre que pensar en crear un wikipedia. -->
-<!-- NOTE: IMPORTANTE PONER EL id="link" -->
 <div id="list" style="display: none">
   <a href="posts/test.html">Test</a>
 </div>
 
-<div id="res"><b>result will go here</b></div>
+<div id="res"><b>el resultado irá aquí</b></div>
 
 <br/>
 
@@ -56,10 +55,10 @@
 
 <h3>¿QUE es ChevrezWiki?</h3>
 <p>
-ChevrezWiki es una pagina donde recopilo cualquier tipo de información<br/>
+ChevrezWiki es una pagina donde se recopilo cualquier tipo de información<br/>
 si esto llega los <b style="font-size: 20px; color: brown;">200</b> articulos, tratare de usar mediawiki.<br/><br/>
 
-no se si esto sera algo publico pude ser que si, en realidad no lo se.
+si quieres agregar información clona el <a href="https://github.com/duksito/ChevrezWiki">repositorio</a> y manda un pullRequest
 </p>
 
 <hr/>
@@ -76,5 +75,10 @@ no se si esto sera algo publico pude ser que si, en realidad no lo se.
 <div id="table"></div>
 
 <script src="client/scripts.js"></script>
+<script>
+function fail() {
+  alert("NO FUNCIONA AÚN");
+}
+</script>
 </body>
 </html>
