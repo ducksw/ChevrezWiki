@@ -7,8 +7,7 @@ const rl = readline.createInterface({
 });
 
 rl.question('Ingrese el nombre del archivo que quiere crear: ', (name) => {
-  //console.log(`Hola, ${name}!`);
-  
+
   const layout = `<!DOCTYPE html>
 <html lang="en">
 <head>
