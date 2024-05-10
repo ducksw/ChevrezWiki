@@ -43,4 +43,3 @@ document.addEventListener('DOMContentLoaded', function () {
 
   let perfil = document.getElementById('perfil'); 
 });
-
