@@ -22,7 +22,7 @@ function loginn() {
     conn.style.padding = "5px";
 
     setTimeout(function () {
-      window.location.href = "index.html";
+      window.location.href = "../";
     },3000)
   }
 }
