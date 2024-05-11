@@ -23,11 +23,11 @@ h1 {
 .input {
   max-width: 100%;
   width: 300px;
-  font-family: sans-serif;
+  font-family: monospace;;
   border: 1px solid black;
   outline: none;
-  padding: 4px;
   border-radius: 3px;
+  padding: 5px;
 }
 
 .input:focus {

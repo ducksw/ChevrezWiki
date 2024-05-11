@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pirata+One&family=Press+Start+2P&display=swap');
 
 body {
-  font-family: "Segoe UI";
-  font-size: 0.875rem;
+  /*font-family: "Segoe UI";*/
+  font-family: monospace;
   /* max-width: 900px; */
-  max-width: 900px;
+  max-width: 750px;
   margin: 0 auto;
   padding: 0 50px;
   box-sizing: border-box;
@@ -54,8 +54,8 @@ img {
 }
 
 p {
-  font-family: "Noto Sans", sans-serif;
-  line-height: 1.5714285;
+  /*font-family: "Noto Sans", sans-serif;*/
+  line-height: 1.3714285;
 }
 
 #title {
