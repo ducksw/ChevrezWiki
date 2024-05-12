@@ -3,7 +3,7 @@ function loginn() {
   let name = document.getElementById('name').value;
   let password = document.getElementById('password').value;
   let conn = document.getElementById('connect');
-  let perfil = document.getElementById('perfil'); 
+  //let perfil = document.getElementById('perfil'); 
 
 
   if (name == "" || name == null) {

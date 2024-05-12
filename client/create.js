@@ -21,7 +21,6 @@ rl.question('Ingrese el nombre del archivo que quiere crear: ', (name) => {
   <h1><a href="../index.html">ChevrezWiki</a></h1>
   <hr/>
 </div>
-<div class="box">
 <article>
 
 <!-- Titulo -->
@@ -32,8 +31,6 @@ rl.question('Ingrese el nombre del archivo que quiere crear: ', (name) => {
 <!-- <div class="parr"></div> -->
 
 </article>
-
-</div>
 
 <script src="../client/app.js"></script>
 </body>

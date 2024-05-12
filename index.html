@@ -26,15 +26,9 @@
 <div class="inputs">
 <input type="text" class="input" id="input" placeholder="Chevrez Search"><br/><br/>
 <input type="submit" value="Chevrez Search" onclick="buscar()" class="btn">
-<input type="submit" value="I'm Feeling Lucky" onclick="fail()" class="btn">
+<input type="submit" value="I'm Feeling Lucky" onclick="rand()" class="btn">
 </div>
 
-
-<!-- si esto llega a los 200, lo tendre que pensar en crear un wikipedia. -->
-<div id="list" style="display: none">
-  <a href="posts/Cuarta_dimension.html">Cuarta dimensión</a>
-  <a href="posts/George_Hotz.html">George Hotz</a>
-</div>
 
 <div id="res"><b>el resultado irá aquí</b></div>
 
@@ -75,11 +69,13 @@ si quieres agregar información clona el <a href="https://github.com/duksito/Che
 
 <div id="table"></div>
 
+
+<!-- si esto llega a los 200, lo tendre que pensar en crear un wikipedia. -->
+<div id="list" style="display: none">
+  <a href="posts/Cuarta_dimension.html">Cuarta dimensión</a>
+  <a href="posts/George_Hotz.html">George Hotz</a>
+</div>
+
 <script src="client/scripts.js"></script>
-<script>
-function fail() {
-  alert("NO FUNCIONA AÚN");
-}
-</script>
 </body>
 </html>
