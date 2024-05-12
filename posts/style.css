@@ -4,10 +4,6 @@ body {
   /*font-family: "Segoe UI";*/
   font-family: monospace;
   /* max-width: 900px; */
-  max-width: 750px;
-  margin: 0 auto;
-  padding: 0 50px;
-  box-sizing: border-box;
 }
 
 img {
@@ -43,6 +39,14 @@ img {
   float: right;
   max-width: 100%;
   width: 250px;
+}
+
+.box {
+  display: flex;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box;
 }
 
 .box img {
@@ -83,4 +87,24 @@ pre {
   word-wrap: break-word;
   background-color: #f8f9fa;
   border: 1px solid #eaecf0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .parr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .box {
+    display: flex;
+    max-width: 750px;
+    padding: 0 10px;
+  }
 }

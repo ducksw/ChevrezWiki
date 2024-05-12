@@ -27,6 +27,7 @@ function buscar() {
     let res2 = document.getElementById('res2');
     res2.innerHTML = `El resultado <b>${input}</b> no fue encontrado.`
     document.getElementById('input').value = "";
+    return;
   } 
 
   //document.getElementById('input').value = "";
@@ -62,6 +63,3 @@ function rand() {
   let randomLink = lis[random].getAttribute('href'); 
   window.open(randomLink, "_self"); 
 }
-
-//rand();
-
