@@ -67,6 +67,12 @@ p {
   margin: 0;
 }
 
+.title {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+
 .title-info {
   display: flex;
   justify-content: center;
@@ -107,4 +113,5 @@ pre {
     max-width: 750px;
     padding: 0 10px;
   }
+
 }
