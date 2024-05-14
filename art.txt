@@ -1,6 +1,6 @@
 == iPhone(Device) ==
 
-iPhone 2G
+iPhone 
 iPhone 3G
 iPhone 3GS
 iPhone 4

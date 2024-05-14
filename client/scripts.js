@@ -30,8 +30,6 @@ function buscar() {
     return;
   } 
 
-  //document.getElementById('input').value = "";
-
   result.innerHTML = `<div style="display: flex; flex-direction: column;">${arr.join('')}</div>`;
 }
 
@@ -60,6 +58,6 @@ function rand() {
   let lis = document.getElementById('list').children; 
 
   let random = Math.floor(Math.random() * lis.length); 
-  let randomLink = lis[random].getAttribute('href'); 
+  let randomLink = lis[random].getAttribute('href');
   window.open(randomLink, "_self"); 
 }
