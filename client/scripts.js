@@ -53,11 +53,12 @@ document.getElementById('input').addEventListener('keypress', function(event) {
   }
 });
 
-
 function rand() {
   let lis = document.getElementById('list').children; 
 
   let random = Math.floor(Math.random() * lis.length); 
   let randomLink = lis[random].getAttribute('href');
-  window.open(randomLink, "_self"); 
+  setTimeout(function () {
+    window.open(randomLink, "_self"); 
+  }, 1000)
 }

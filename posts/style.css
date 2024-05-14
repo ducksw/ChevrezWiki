@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pirata+One&family=Press+Start+2P&display=swap');
 
 body {
-  /*font-family: "Segoe UI";*/
   font-family: monospace;
+  /* font-family: "Segoe UI"; */
   /* max-width: 900px; */
+  /* font-size: 0.875rem; */
 }
 
-/*
 h2,h3,h4,h5,h6 {
+  font-family: "Segoe UI"; 
 }
-*/
 
 article {
-  max-width: 750px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -27,7 +27,6 @@ img {
   float: right;
   max-width: 100%;
   width: 250px;
-  margin-left: 5px;
   max-width: 300px;
 }
 
@@ -51,6 +50,21 @@ img {
   width: 250px;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 250px;
+}
+
+.info span {
+  background-color: black;
+  width: 100%;
+  font-weight: bold;
+  padding: 3px;
+  color: white;
+}
+
 .box img {
   display: flex;
   margin: auto;
@@ -68,10 +82,11 @@ p {
 #title {
   font-size: 30px;
   margin: 0;
+  font-family: "Segoe UI"; 
 }
 
 .title {
-  max-width: 750px;
+  max-width: 800px;
   margin: 0 auto;
 }
 

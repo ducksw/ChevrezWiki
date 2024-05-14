@@ -3,7 +3,8 @@ const readline = require('readline');
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
+
 });
 
 rl.question('Ingrese el nombre del archivo que quiere crear: ', (name) => {
@@ -13,7 +14,7 @@ rl.question('Ingrese el nombre del archivo que quiere crear: ', (name) => {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <title>${name}</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -38,7 +39,7 @@ rl.question('Ingrese el nombre del archivo que quiere crear: ', (name) => {
 </body>
 </html>`
 
-  fs.writeFile(`posts/${name}`, layout,  (error) => {
+  fs.writeFile(`posts/${name}.html`, layout,  (error) => {
     if (error) {
       throw error;
     }
@@ -48,4 +49,3 @@ rl.question('Ingrese el nombre del archivo que quiere crear: ', (name) => {
   
   rl.close();
 });
-
