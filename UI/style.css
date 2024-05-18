@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica';
+}
+
+header {
+  padding: .5em;
+  width: 100%;
+  box-sizing: border-box;
+  background: #f4f6f8;
+  border-bottom: 1px solid #aaa;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  max-width: 100%;
+  width: 90px;
+  height: 100%;
+  color: black;
+  padding: 7px;
+}
+
+.input {
+  display: flex;
+}
+
+.input div {
+  display: flex;
+  align-items: center;
+}
+
+.input input {
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  border: 1px solid #b5b2b2;
+  background-color: #fff;
+  width: 200px;
+}
+
+.input input::placeholder {
+  color: #b5b2b2;
+}
+
+.ga {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 55.8em;
+}
+
+.mybox {
+  padding: 10px;
+}
+
+.welc {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* a:hover {
+  text-decoration: underline;
+} */
+
+#main {
+  background-color: #D3D3D3;
+}
+
+#browse {
+  color: darkgrey;
+}
+
+#search {
+  color: darkgrey;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+section p {
+  margin: 0.5em 0 1em 0;
+  line-height: 1.65;
+}
+
+hr {
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+  color:  #002bb8;
+}

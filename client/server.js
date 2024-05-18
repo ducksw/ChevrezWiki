@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3000;
+const PORT = 3002;
 
 const server = http.createServer((req, res) => {
     let filePath = '.' + req.url;
@@ -51,5 +51,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-    console.log(`Servidor corriendo en http://localhost:${PORT}/`);
+  console.log(`Server en el puerto: http://localhost:${PORT}/`);
 });

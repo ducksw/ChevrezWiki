@@ -3,5 +3,5 @@ for ((i=0; i<2; i++)); do
   sleep 1
 done
 
-echo -e "\e[32m**** SERVER ACTIVO ****\e[0m"  # Texto verde
+echo -e "\e[32m**** Starting Web Server ****\e[0m"  # Texto verde
 node client/server.js

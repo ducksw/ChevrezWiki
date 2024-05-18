@@ -19,7 +19,7 @@ function buscar() {
       return 0;
     } else if (text.toLocaleLowerCase().includes(input)) {
       let wordText = text.split(' ').map(replaceLetter).join(' ');
-      arr.push(`<div id="box">Search Result -> <a id="links" href="${link}"><b">${wordText}</b></a></div>`);
+      arr.push(`<div id="box"><a id="links" href="${link}"><b">${wordText}</b></a></div>`);
     } 
   }
 
@@ -27,16 +27,20 @@ function buscar() {
     let res2 = document.getElementById('res2');
     res2.innerHTML = `El resultado <b>${input}</b> no fue encontrado.`
     document.getElementById('input').value = "";
+    result.innerHTML = "";
     return;
-  } 
+  } else {
+    res2.innerHTML = "";
+  }
 
-  result.innerHTML = `<div style="display: flex; flex-direction: column;">${arr.join('')}</div>`;
+  result.innerHTML = `<b>Search Results</b><br/><br/><div style="display: flex; flex-direction: column;">${arr.join('')}</div>`;
 }
 
 let art = document.getElementById('art');
 let lis = document.getElementById('list').children; 
-art.innerHTML = `<div id="art"><span id="arti">Articulos</span> <b style="color: darkred; font-size: 25px;">${lis.length}</b></div>`
+art.innerHTML = `<div id="art"><b>${lis.length}</b> artículos en <b style="color: #5a3696;">español</b></div>`
 
+/*
 window.onload = function() {
   let loginData = JSON.parse(localStorage.getItem("loginData"));
   if (loginData) {
@@ -46,6 +50,7 @@ window.onload = function() {
     console.log(nameData);
   }
 }
+*/
 
 document.getElementById('input').addEventListener('keypress', function(event) {
   if (event.keyCode === 13) {
@@ -61,4 +66,8 @@ function rand() {
   setTimeout(function () {
     window.open(randomLink, "_self"); 
   }, 1000)
+}
+
+function index() {
+  window.location = "index.html";
 }
