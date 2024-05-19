@@ -40,6 +40,20 @@ header {
   padding: 7px;
 }
 
+#random {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #f4f6f8;
+  height: 100%;
+  max-width: 100%;
+  width: 90px;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 #search {
   background-color: #D3D3D3;
   color: black;
