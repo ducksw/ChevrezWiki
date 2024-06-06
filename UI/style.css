@@ -1,6 +1,7 @@
-body {
+/* body {
   margin: 0;
   font-family: 'Helvetica';
+  background-color: #F6F6F6;
 }
 
 header {
@@ -71,10 +72,13 @@ header {
   margin-left: auto;
   margin-right: auto;
   max-width: 55.8em;
+  padding: 15px;
 }
 
 .mybox {
-  padding: 10px;
+  padding: 15px;
+  margin-top: 30px;
+  background-color: white;
 }
 
 .welc {
@@ -86,10 +90,6 @@ header {
 a {
   text-decoration: none;
 }
-
-/* a:hover {
-  text-decoration: underline;
-} */
 
 #main {
   background-color: #D3D3D3;
@@ -125,3 +125,14 @@ h2 {
 a {
   color:  #002bb8;
 }
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #FCF8F9;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #C5C2C2;
+  border: 2px solid #FCF8F9;
+  border-radius: 5px;
+} */

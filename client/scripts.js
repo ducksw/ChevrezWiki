@@ -20,20 +20,20 @@ function buscar() {
     } else if (text.toLocaleLowerCase().includes(input)) {
       let wordText = text.split(' ').map(replaceLetter).join(' ');
       arr.push(`<div id="box"><a id="links" href="${link}"><b">${wordText}</b></a></div>`);
-    } 
+    }
   }
 
   if (arr.length === 0) {
     let res2 = document.getElementById('res2');
     res2.innerHTML = `El resultado <b>${input}</b> no fue encontrado.`
-    document.getElementById('input').value = "";
     result.innerHTML = "";
     return;
   } else {
     res2.innerHTML = "";
+    document.getElementById('input').value = "";
   }
 
-  result.innerHTML = `<b>Search Results</b><br/><br/><div style="display: flex; flex-direction: column;">${arr.join('')}</div>`;
+  result.innerHTML = `<b>Search Results</b><div style="display: flex; flex-direction: column;" id="arrLink">${arr.join('')}</div>`;
 }
 
 let art = document.getElementById('art');
@@ -59,12 +59,17 @@ document.getElementById('input').addEventListener('keypress', function(event) {
 });
 
 function rand() {
-  let lis = document.getElementById('list').children; 
+  let lis = document.getElementById('list').children;
+  let res2 = document.getElementById('res2');
 
-  let random = Math.floor(Math.random() * lis.length); 
+  let random = Math.floor(Math.random() * lis.length);
   let randomLink = lis[random].getAttribute('href');
+
+  res2.innerHTML = `<span style="font-size: 30px;">pending...</span>`;
+
   setTimeout(function () {
-    window.open(randomLink, "_self"); 
+    window.open(randomLink, "_self");
+    res2.innerHTML = "";
   }, 1000)
 }
 
