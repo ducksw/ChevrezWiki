@@ -42,7 +42,7 @@ rl.question('Ingrese el nombre del archivo que quiere crear: ', (name) => {
 </body>
 </html>`
 
-  fs.writeFile(`posts/${name}.html`, layout,  (error) => {
+  fs.writeFile(`docs/${name}.html`, layout,  (error) => {
     if (error) {
       throw error;
     }
