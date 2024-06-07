@@ -6,7 +6,7 @@
 
 * [Instalar Git](https://git-scm.com/downloads) para poder iniciar el servidor y poder crear publicaciones
 
-## Commands 
+### Commands 
 ```bash
 == Usar GitBash ==
 
